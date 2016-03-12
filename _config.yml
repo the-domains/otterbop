@@ -1,28 +1,40 @@
-name: Otterbop
-favicon: null
-layout_spectrum: 0.14147887704893947
-typography_spectrum: 0.7548040531110018
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+  domain: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.9253275061491877
-  lightness: 0.7901107326615602
-  saturation: 0.7593329399824142
-  rhythmicContrast: 0.8132319091819227
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.2493734
+  brandStrength: 0.8615288
+  lightness: 0
+  brandColors:
+    - '#000000'
+    - '#FAE8C7'
+    - '#DF6E28'
+    - '#322D26'
+    - '#881F03'
+  rhythmicContrast: 0.2537594
+typography_spectrum: 0.4874687
+layout_spectrum: 0.7631579
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Otterbop
